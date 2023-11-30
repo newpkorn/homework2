@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    max-width: 1024px;
+    margin: auto;
+    background-color: rgba(211, 211, 211, 0.412);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Mitr', sans-serif;
+}
+
+header {
+    background: url('./pics/header.png')no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+}
+
+nav {
+    margin-top: 10px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.prev-btn > button {
+    border: none;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn-group {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-group > img {
+    cursor: pointer;
+}
+
+.btn-group > button {
+    border-radius: 20px;
+    border: 1px solid gray;
+    color: rgb(122, 119, 119);
+    cursor: pointer;
+}
+
+.btn-coupon {
+    width: 250px;
+}
+
+.btn-topup {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-coupon:hover,.btn-topup:hover {
+    background-color: aliceblue;
+    color: blue;
+}
+
+.welcome {
+    font-size: 34px;
+    text-align: center;
+    margin-top: 60px;
+    color: lightpink;
+}
+
+.select-header {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.items-row {
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.item-menu {
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 50px;
+    width: 90px;
+    height: 90px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.item-menu > img {
+    width: 80px;
+}
+
+.item-menu:hover {
+    background-color: beige;
+    color: blue;
+}
+
+/* .menu-name {
+    margin-top: 5px;
+    font-size: 16px;
+    text-align: center;
+} */
+/* :last-child,nth  */
+/* nav > * {
+            color: blue;
+            display: inline-block;
+            background-color: aliceblue;
+            padding: 10px 16px;
+}
+nav > *:first-child {
+            margin-right: 200px;
+} */
